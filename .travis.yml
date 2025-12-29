@@ -9,7 +9,7 @@ stages:
   - name: test
 jobs:
   include:
-    - stage: test
+    - stage: test1
       name: testing
       script: true
 after_success:
