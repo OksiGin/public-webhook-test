@@ -6,7 +6,7 @@ cache: bundler
 dist: focal
 install: skip
 stages:
-  - name: test
+  - name: test-branch
 jobs:
   include:
     - stage: tests
