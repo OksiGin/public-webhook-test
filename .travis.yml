@@ -3,7 +3,7 @@ language: totally_invalid_language
 services:
   - docker
 cache: bundler
-dist: focal
+dist: totally_invalid_dist
 install: skip
 stages:
   - name: test
