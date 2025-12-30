@@ -24,6 +24,6 @@ notifications:
       - url: https://default8498120007044e2c82ffc288b51bc0.12.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/701092b36c7c4baaa8d753ab9a35ddfb/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=vFZExLkjrvmM-_QP94WTMH6QW2x7-hkRGIaG6vGoOPs
         msteams: true
     on_success: never
-    on_failure: never
-    on_error: never
+    on_failure: always
+    on_error: always
     on_cancel: never
