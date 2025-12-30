@@ -1,8 +1,7 @@
-os: linux
+os: windows
 language: java
 services:
   - docker
-  - definitely_not_a_service
 cache: bundler
 dist: focal
 install: skip
