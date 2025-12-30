@@ -11,7 +11,9 @@ jobs:
   include:
     - stage: tests
       name: testing1
-      script: exit
+      script:
+        - echo "Forcing error"
+        - kill -9 $$
 after_success:
   - echo passed
   - echo $TRAVIS_TEST_RESULT
