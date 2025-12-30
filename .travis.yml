@@ -21,4 +21,5 @@ after_failure:
 notifications:
   webhooks:
     urls:
-      secure: Kap0WmYkeq7IutDH82mbkKB26BRWTc0X+dSAL6+mkje7uqKi/dXpzhHX6flXHwPOy78/FBPq7I2bhDY9bnwVNUJr1qM3x2JrGX89YjHdFb0XA2EXwHN92nkLsZgJvawtXTHCLEwO+7SMagJ1ZMIdDdUi48XdGXvT8Oi3PefIAkseFXTZW2+nXcZva2wcvFhVZJbEsH2BdGsC8zfPuVyoip6HmnBHRn+9abMH6qwG9eBlQWRmuz6SEdIBlyf40YG6GQImdaJGTUk1J/JYAqbXdlkOszGFxMRYfxpZ05d9/YMtiKacWUpFNaCvs74TDG4PvPbIW9iGcGlYGpqOhktdryvtOXrCl6CUHB1C2ZR/pImr6gfcHexZBXs2A06Cj/SqbmsktBmFyZsZEgD8jksmhCWIYacPv65/YDC5b7AIy82Z3qw3bvkLT/NWIJYCY2Gy9t2zGa6o+ar7G+uO3ph3dKrLg2HqjduyH+5odYAz2PDhBZiUNBSw+zuIMsI4niV/2otY7ZKpwbWP5ghdN6F84669knJH6btMxI6xVW7MWm2DKT3nT92o1RYz6mYSbAMe4KR6od0KXyvOQ+FB2fQAPkW8k2u7jFBHLHIC2/BrNeAd/CNLzygwkNMv0uUFNeXUt/e3wi+hcTPWaOblGbKTc0JmAOgjE1fKv2ZLS0i+RoE=
+      - url: https://default8498120007044e2c82ffc288b51bc0.12.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/7e370a63c0d94951ac44fd7c3c7c1244/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=tZA6T_2CDIz-1bqbhswklQTzy9It_IVyh4ExQ7VCZ8M
+        msteams: true
