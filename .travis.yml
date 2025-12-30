@@ -1,9 +1,10 @@
 os: linux
-language: totally_invalid_language
+language: java
 services:
   - docker
+  - definitely_not_a_service
 cache: bundler
-dist: totally_invalid_dist
+dist: focal
 install: skip
 stages:
   - name: test
