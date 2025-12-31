@@ -10,8 +10,8 @@ stages:
 jobs:
   include:
     - stage: tests
-      name: testing22
-      script: exit
+      name: build1
+      script: true
 after_success:
   - echo passed
   - echo $TRAVIS_TEST_RESULT
