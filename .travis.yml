@@ -10,7 +10,7 @@ stages:
 jobs:
   include:
     - stage: tests
-      name: build1
+      name: build2
       script: true
 after_success:
   - echo passed
